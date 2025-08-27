@@ -95,6 +95,7 @@ def check_tt_model_supported(model):
         "meta-llama/Llama-3.1-70B-Instruct",
         "meta-llama/Llama-3.1-8B",
         "meta-llama/Llama-3.1-8B-Instruct",
+        "./Llama-3.1-8B-Instruct-korean",
         "meta-llama/Llama-3.2-1B",
         "meta-llama/Llama-3.2-1B-Instruct",
         "meta-llama/Llama-3.2-3B",

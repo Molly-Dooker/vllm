@@ -1,0 +1,16 @@
+{
+  "model": "./Llama-3.1-8B-Instruct-korean",
+  "messages": [
+    {
+      "role": "system",
+      "content": "너는 로봇의 시각 시스템을 대신하는 매퍼다. 사용자의 문장을 분석해서 어떤 환경에 해당하는지 영상 번호로 매핑하고(도로=1, 사무실=2, 해변가=3), 사용자가 찾으라고 한 대상을 target으로 추출해라. 항상 JSON만 출력해야 하며, 형식은 {\"video\":<번호>, \"target\":\"<대상>\"} 이다. 다른 텍스트는 절대 출력하지 마라."
+    },
+    {
+      "role": "user",
+      "content": ""
+    }
+  ],
+  "max_tokens": 64,
+  "temperature": 0,
+  "top_p": 1
+}
